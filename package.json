@@ -1,6 +1,6 @@
 {
   "name": "ckeditor-text-color-select",
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "description": "The text color selector for CKEditor 5",
   "keywords": [
     "ckeditor",

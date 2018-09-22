@@ -1,6 +1,7 @@
 .color-picker .ck-toolbar {
     width: 308px !important;
     padding-bottom: 5px;
+    flex-wrap: wrap !important;
 }
 
 .color-picker .ck-toolbar .ck-button {
