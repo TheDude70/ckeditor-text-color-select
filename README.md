@@ -20,7 +20,7 @@ npm install --save ckeditor-text-color-select
 Use it in your JavaScript application:
 
 ```js
-import TextColor from 'ckeditor-text-color-select';
+import TextColor from 'ckeditor-text-color-select/src/textcolor';
 ```
 
 ## License
