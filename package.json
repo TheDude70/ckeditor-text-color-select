@@ -24,6 +24,7 @@
     "node": ">=6.9.0",
     "npm": ">=3.0.0"
   },
+  "author": "Paul Derbyshire",
   "license": "GPL-2.0-or-later",
   "bugs": "https://github.com/TheDude70/ckeditor-text-color-select/issues",
   "repository": {
