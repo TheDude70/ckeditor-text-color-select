@@ -5,8 +5,8 @@ import SplitButtonView from '@ckeditor/ckeditor5-ui/src/dropdown/button/splitbut
 
 import { createDropdown, addToolbarToDropdown} from '@ckeditor/ckeditor5-ui/src/dropdown/utils';
 
-import textColorIcon from './theme/icons/text-color.svg';
-import ColorIcon from './theme/icons/color.svg';
+import textColorIcon from '../theme/icons/text-color.svg';
+import ColorIcon from '../theme/icons/color.svg';
 import '../theme/textcolor.css';
 
 
