@@ -1,0 +1,23 @@
+.ck-toolbar {
+    width: 300px !important;
+    flex-wrap: wrap !important;
+}
+
+.color-picker .ck-toolbar {
+    width: 308px !important;
+    padding-bottom: 5px;
+}
+
+.color-picker .ck-toolbar .ck-button {
+    padding: 1px !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    min-width: 0 !important;
+    width: 20px !important;
+    height: 20px !important;
+    cursor: pointer;
+}
+
+.light-coral{
+    color: lightcoral !important;
+}
