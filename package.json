@@ -1,6 +1,6 @@
 {
   "name": "ckeditor-text-color-select",
-  "version": "0.0.1-2",
+  "version": "0.0.1-3",
   "description": "The text color selector for CKEditor 5",
   "keywords": [
     "ckeditor",
@@ -14,11 +14,7 @@
     "@ckeditor/ckeditor5-ui": "^11.0.0"
   },
   "devDependencies": {
-    "@ckeditor/ckeditor5-editor-classic": "^11.0.0",
-    "eslint": "^5.5.0",
-    "eslint-config-ckeditor5": "^1.0.7",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0"
+    "@ckeditor/ckeditor5-editor-classic": "^11.0.0"
   },
   "engines": {
     "node": ">=6.9.0",

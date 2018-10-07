@@ -64,9 +64,8 @@ export default class TextColorEditing extends Plugin {
                         }
 
                         // determine closest color
-                        const regEx = /^rgb\((\d*),\s+(\d*),\s+(\d*)\)$/;
+                        const regEx = /^rgb\((\d*),\s?(\d*),\s?(\d*)\)$/;
                         let rgb = regEx.exec(color);
-                        console.log(rgb);
                         if (!rgb) {
                             return null;
                         }
