@@ -7,16 +7,16 @@ import Colors from './colors.js';
 const TEXT_COLOR = 'textColor';
 
 Array.prototype.closest = function (str) {
-        let min = 0xffffff;
-        let best, current, i;
-        for (i = 0; i < this.length; i++) {
-            current = dist(this[i].color.substr(1), str.substr(1));
-            if (current < min) {
-                min = current;
-                best = this[i];
-            }
+    let min = 0xffffff;
+    let best, current, i;
+    for (i = 0; i < this.length; i++) {
+        current = dist(this[i].color.substr(1), str.substr(1));
+        if (current < min) {
+            min = current;
+            best = this[i];
         }
-        return best;
+    }
+    return best;
 };
 
 export default class TextColorEditing extends Plugin {
@@ -120,7 +120,7 @@ function toRGB(color) {
 }
 
 function toHex(r, g, b) {
-    return '#' + parseInt(r).toString(16) + parseInt(g).toString(16) + parseInt(b).toString(16);
+    return '#' + parseInt(r).toString(16).padStart(2, '0') + parseInt(g).toString(16).padStart(2, '0') + parseInt(b).toString(16).padStart(2, '0');
 }
 
 function dist(s, t) {
