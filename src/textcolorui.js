@@ -123,7 +123,10 @@ export default class TextColorUI extends Plugin {
                 this.listenTo(buttonView, 'execute', () => dropdownView.buttonView.set({lastExecuted: option.model}));
 
                 return buttonView;
-            });
+			});
+			
+			// add open event to the action button inside splitButtonView
+			splitButtonView.actionView.delegate('execute').to(splitButtonView, 'open');
 
             // Make toolbar button enabled when any button in dropdown is enabled before adding separator and eraser.
             dropdownView.bind('isEnabled').toMany(buttons, 'isEnabled', (...areEnabled) => areEnabled.some(isEnabled => isEnabled));
